@@ -1,0 +1,23 @@
+[
+  {
+    "id": "xT38wsFbWh",
+    "title": "Mobile",
+    "desc": "This is a mobile phone",
+    "price": 120,
+    "rate": 4
+  },
+  {
+    "id": "OWPbjWkLKv",
+    "title": "Laptop",
+    "desc": "This is a laptop",
+    "price": 344,
+    "rate": 5
+  },
+  {
+    "id": "7S9-UnsnIW",
+    "title": "Tv",
+    "desc": "This is a Tv",
+    "price": 455,
+    "rate": 2
+  }
+]

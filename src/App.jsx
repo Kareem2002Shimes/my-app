@@ -1,9 +1,14 @@
 import './App.css';
-import Home from './pages/Home';
+import Products from './components/Products';
+// import Counter from './components/Counter';
+// import Home from './pages/Home';
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+      {/* <Counter /> */}
+      {/* <Login /> */}
+      <Products />
     </>
   );
 }
