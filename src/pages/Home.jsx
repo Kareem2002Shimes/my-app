@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import Todos from '../components/Todos';
 import Header from '../components/header/Header';
 
 function Home() {
@@ -6,7 +7,7 @@ function Home() {
     <>
       <Header />
       <main>
-        <section>Home</section>
+        <Todos />
       </main>
       <Footer />
     </>
