@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import Input from './Input';
+import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const LoginForm = () => {
+  const navigate = useNavigate();
   const [credintials, setCredintials] = useState({ email: '', password: '' });
 
   const handleSubmit = (e) => {
@@ -10,6 +12,7 @@ const Login = () => {
       alert('Please fill in all field');
     }
     // send data to backend api
+    // if request success (200 OK) navigate profile
     const { email, password } = credintials;
     console.log(
       JSON.stringify({
@@ -17,6 +20,7 @@ const Login = () => {
         password,
       })
     );
+    navigate('/profile');
   };
   return (
     <div>
@@ -58,4 +62,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginForm;
